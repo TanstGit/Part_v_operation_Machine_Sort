@@ -1,0 +1,5 @@
+Select 
+PO.Operation_Key,
+PO.Operation_Code,
+PO.Operation_Type
+from Part_v_Operation as PO where Operation_Key = '40944' or Operation_Key = '43508' or Operation_key = '43073';
